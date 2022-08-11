@@ -9,6 +9,7 @@
 --
 
 require('onedark').setup {
+ -- available themes: dark, darker, warm, warmer, cool, deep
   style = 'darker'
 }
 require('onedark').load()

@@ -44,8 +44,10 @@ Just simply run this command.
 
 `choco install lazygit llvm zig fzf ripgrep`
 
+******(If you're on linux/mac please consider looking for installation of these on google. :D)**
+
 > All installed plugins are there in `lua/plugins.lua` feel free to update it. `C-s` or `:w` to save file.
 
 # TO-DOs
-- Transparent background
-- rest issues later :D
+- Linux and Mac installation
+- Improve Bindings
