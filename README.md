@@ -10,7 +10,7 @@
 
 ## TF is this!
 
-Welp. This is my config files for neovim. This config make it easier to transition from VSCode to vim/neovim. This'll make the development procedure better and efficient. This config is mainly for windows users but can work on multi-platform.
+Welp. This are my config files for neovim. This config make it easier to transition from VSCode to vim/neovim. This'll make the development procedure better and efficient. This config is mainly for windows users but can work on multi-platform.
 
 ## Features
 
