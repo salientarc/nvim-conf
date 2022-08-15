@@ -80,7 +80,7 @@ return packer.startup(function(use)
   use "ahmedkhalf/project.nvim"                       -- Project manager
 
   -- Treesitter
-  use "nvim-treesitter/nvim-treesitter"               -- Treesitter configuration
+  use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }               -- Treesitter configuration
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()
