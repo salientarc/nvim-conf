@@ -35,9 +35,17 @@ Welp. These are my config files for neovim. This config make it easier to transi
 - Choco / Scoop for installation of `llvm` compiler & lazygit
 - Fira Code Nerd Font
 
-### 2. Open Neovim
+### 2. Setup Neovim
 
-Before installation you have to setup packer. For installation process consider following docs on github https://github.com/wbthomason/packer.nvim#quickstart
+- If you're on windows then `choco install neovim` or `winget install Neovim.Neovim`
+  - If you're on mac / linux check the installation instruction [HERE](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+- Before installation you have to setup packer. For installation process consider following docs on github [HERE](https://github.com/wbthomason/packer.nvim#quickstart)
+
+- After that clone these config files
+
+  - **Windows** `git clone https://github.com/salientarc/nvim-conf.git ~/AppData/Local/nvim`
+  - **Linux / MacOS** `git clone https://github.com/salientarc/nvim-conf.git ~/.config/nvim`
 
 ### 3. lazygit, tree-sitter and more...
 
@@ -45,18 +53,19 @@ Just simply run this command.
 
 `choco install lazygit llvm zig fzf ripgrep`
 
-**(If you're on linux/mac, I've linked docs page of all below:D)**
+**(If you're on linux/mac, Use the docs that I've linked below :D)**
 
-Lazygit Installation: ![HERE](https://github.com/jesseduffield/lazygit#installation)
+**Lazygit Installation**: [HERE](https://github.com/jesseduffield/lazygit#installation)
 
-Ziglang Installation: ![HERE](https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Manager)
+**Ziglang Installation**: [HERE](https://github.com/ziglang/zig/wiki/Install-Zig-from-a-Package-Manager)
 
-Fzf Installation: ![HERE](https://github.com/junegunn/fzf#installation)
+**Fzf Installation**: [HERE](https://github.com/junegunn/fzf#installation)
 
-Ripgrep Installation ![HERE](https://github.com/BurntSushi/ripgrep#installation)
+**Ripgrep Installation** [HERE](https://github.com/BurntSushi/ripgrep#installation)
+
+Now you're almost done! Open terminal and type `nvim` to open NeoVim then  type`:PackerSync` to update and compile all plugins.
 
 > All installed plugins are there in `lua/plugins.lua` feel free to update it. `C-s` or `:w` to save file.
 
 # TO-DOs
-- Linux and Mac installation
 - Improve Bindings
