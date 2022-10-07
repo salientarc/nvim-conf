@@ -2,15 +2,19 @@
 
 ### Startup
 
-![image](https://user-images.githubusercontent.com/78542800/184152236-e52450ca-7088-414c-ab14-43409dd707ca.png)
+![image](https://user-images.githubusercontent.com/78542800/194477737-5d70891a-d99e-48b3-b9d3-caa02b039d3e.png)
+
+## File Search
+
+![image](https://user-images.githubusercontent.com/78542800/194478517-3eef4f51-a5e7-48b1-b3ab-c07cd3cba72f.png)
 
 ### Workflow
 
-![image](https://user-images.githubusercontent.com/78542800/184152467-69173bb0-e63e-4575-b986-153288d2c3da.png)
+![image](https://user-images.githubusercontent.com/78542800/194478826-1e386413-b01c-4bcc-94fe-6b7ff6a3540f.png)
 
-## TF is this!
+## What iz dis?
 
-Welp. These are my config files for neovim. This config make it easier to transition from VSCode to vim/neovim. This'll make the development procedure better and efficient. This config is mainly for windows users but can work on multi-platform.
+My neovim config files written in LUA. All of this just because I wanna shift from VSCode to Neovim for most of my work
 
 ## Features
 
