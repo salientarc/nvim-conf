@@ -53,9 +53,8 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"                       -- Git integration
 
   -- Colorscheme
-  use 'sainnhe/gruvbox-material'                   -- Gruvbox with Material Palette
-  -- use 'navarasu/onedark.nvim'                         -- One Dark Colorscheme
-  -- use 'morhetz/gruvbox'
+  use 'sainnhe/gruvbox-material'                      -- Gruvbox with Material Palette
+  -- use 'navarasu/onedark.nvim'                      -- One Dark Colorscheme
 
   -- Auto-completion
   use "hrsh7th/nvim-cmp"                              -- Completion (cmp) plugin
