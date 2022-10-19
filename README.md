@@ -1,20 +1,13 @@
 # My Neovim Setup
 
 ### Startup
-
-![image](https://user-images.githubusercontent.com/78542800/194477737-5d70891a-d99e-48b3-b9d3-caa02b039d3e.png)
+![image](https://user-images.githubusercontent.com/78542800/196750533-6e675bf2-b82a-4626-ac67-a53030d4a47b.png)
 
 ## File Search
-
-![image](https://user-images.githubusercontent.com/78542800/194478517-3eef4f51-a5e7-48b1-b3ab-c07cd3cba72f.png)
+![image](https://user-images.githubusercontent.com/78542800/196750794-d03b344e-4abd-4b14-a559-8dd8ca774efb.png)
 
 ### Workflow
-
-![image](https://user-images.githubusercontent.com/78542800/194478826-1e386413-b01c-4bcc-94fe-6b7ff6a3540f.png)
-
-## What iz dis?
-
-My neovim config files written in LUA. All of this just because I wanna shift from VSCode to Neovim for most of my work
+![image](https://user-images.githubusercontent.com/78542800/196750985-b7b7e5aa-4d68-436a-ad7e-479ee5c35282.png)
 
 ## Features
 
@@ -24,7 +17,6 @@ My neovim config files written in LUA. All of this just because I wanna shift fr
 - Debugging and formating: `Null-ls`
 - Multiple and native language support (lsp)
 - Better syntax highlighting with tree-sitter
-- Terminal: Windows Terminal with PS 7.0*
 
 ## Keymaps
 
